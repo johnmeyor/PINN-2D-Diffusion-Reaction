@@ -1,0 +1,14 @@
+{
+  "mode": "lifted",
+  "seed": 2,
+  "n_interior": 1024,
+  "n_edge": 128,
+  "width": 32,
+  "hidden_layers": 3,
+  "adam_iterations": 1200,
+  "lbfgs_maxiter": 300,
+  "dtype": "float64",
+  "backend": "pytorch",
+  "pde": "c_xx+c_yy-0.1*c=0",
+  "revision_run": true
+}

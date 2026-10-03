@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+results_new*/
+results_notebook_run*/
+*_executed.ipynb
+# results_neural_v1 is a deliberate, versioned experiment snapshot.

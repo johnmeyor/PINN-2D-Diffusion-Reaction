@@ -1,0 +1,4 @@
+# Optional headless notebook execution; install after requirements_cpu.txt.
+nbclient==0.10.2
+nbformat==5.10.4
+ipykernel==6.30.1

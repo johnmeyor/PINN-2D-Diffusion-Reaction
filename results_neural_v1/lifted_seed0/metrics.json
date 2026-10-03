@@ -1,0 +1,44 @@
+{
+  "interior": {
+    "relative_l2": 2.4811394534722533e-05,
+    "max_absolute": 2.1789131160437902e-05,
+    "rmse": 8.972493988991036e-06
+  },
+  "core": {
+    "relative_l2": 3.348000698143311e-05,
+    "max_absolute": 2.1789131160437902e-05,
+    "rmse": 1.0423236482914524e-05
+  },
+  "near_left_corners": {
+    "relative_l2": 1.869493370704586e-05,
+    "max_absolute": 2.0817681871787563e-05,
+    "rmse": 1.052678998675983e-05
+  },
+  "predicted_min": -2.220446049250313e-16,
+  "predicted_max": 1.0,
+  "edge_max_errors_excluding_corners": {
+    "left": 0.0,
+    "right": 2.220446049250313e-16,
+    "bottom": 2.220446049250313e-16,
+    "top": 2.220446049250313e-16
+  },
+  "corner_values_source_priority": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ],
+  "pde_test_rmse": 0.0031615402917791677,
+  "pde_test_max": 0.028840074034540766,
+  "preregistered_criteria": {
+    "interior_relative_l2_le_5pct": true,
+    "interior_max_absolute_le_005": true,
+    "core_max_absolute_le_002": true,
+    "open_edge_max_le_002": true,
+    "pde_test_rmse_le_002": true,
+    "range_violation_le_002": true
+  },
+  "all_criteria_pass": true,
+  "training_seconds": 106.46736349999992,
+  "final_step": 1500
+}

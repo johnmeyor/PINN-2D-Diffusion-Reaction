@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.8.0+cpu",
+    "deepxde": "1.15.0",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "pinn2d.py": "c8f250af7416e7fe89ed0a0bca9b0d36c46df62a18b7bc5b602b856a0814a414",
+    "reference.py": "4e355e079d91519998d585f445cfd5b1233da0867b2aa9322747659bfe8c2e19",
+    "run_experiment.py": "d257a61751ba43698edf775d12fa711fbdb849771a6448d81215b49cf7964ccd",
+    "PROTOCOL.md": "951ffe92a2ab4394c1e2d2714cb0b6fa1c4ee0f3d0cb8236be14c037fc50831c"
+  },
+  "argv": [
+    "outputs/40_PINN_2D_revision/run_experiment.py",
+    "--output",
+    "outputs/40_PINN_2D_revision/results_neural_v1"
+  ],
+  "scope": "Corrected extension runs; not a reproduction of the original architecture, backend or output"
+}

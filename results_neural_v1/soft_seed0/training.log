@@ -1,0 +1,84 @@
+Compiling model...
+'compile' took 0.000761 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [2.37e+00, 4.56e+00, 2.84e+00]    [2.37e+00, 4.56e+00, 2.84e+00]    []  
+400       [1.56e-01, 2.03e-01, 8.09e-01]    [1.56e-01, 2.03e-01, 8.09e-01]    []  
+800       [1.33e-02, 2.41e-01, 2.89e-01]    [1.33e-02, 2.41e-01, 2.89e-01]    []  
+1200      [1.59e-02, 1.96e-01, 2.72e-01]    [1.59e-02, 1.96e-01, 2.72e-01]    []  
+
+Best model at step 1200:
+  train loss: 4.84e-01
+  test loss: 4.84e-01
+  test metric: []
+
+'train' took 90.077672 s
+
+Compiling model...
+'compile' took 0.010731 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+1200      [1.59e-02, 1.96e-01, 2.72e-01]    [1.59e-02, 1.96e-01, 2.72e-01]    []  
+1300      [3.10e-02, 7.67e-02, 2.01e-01]    [3.10e-02, 7.67e-02, 2.01e-01]    []  
+1400      [1.94e-02, 7.25e-02, 1.16e-01]    [1.94e-02, 7.25e-02, 1.16e-01]    []  
+1500      [1.06e-02, 6.56e-02, 9.39e-02]    [1.06e-02, 6.56e-02, 9.39e-02]    []  
+
+Best model at step 1500:
+  train loss: 1.70e-01
+  test loss: 1.70e-01
+  test metric: []
+
+'train' took 21.014853 s
+
+{
+  "mode": "soft",
+  "seed": 0,
+  "metrics": {
+    "interior": {
+      "relative_l2": 0.05146262626898237,
+      "max_absolute": 0.3117214150090929,
+      "rmse": 0.018610324551082323
+    },
+    "core": {
+      "relative_l2": 0.016143642406712,
+      "max_absolute": 0.02617359104770256,
+      "rmse": 0.005025954821158877
+    },
+    "near_left_corners": {
+      "relative_l2": 0.1643964821110608,
+      "max_absolute": 0.3117214150090929,
+      "rmse": 0.09256878194187065
+    },
+    "predicted_min": -0.07504476386739573,
+    "predicted_max": 1.059345734201605,
+    "edge_max_errors_excluding_corners": {
+      "left": 0.3295267009725311,
+      "right": 0.0409300760905465,
+      "bottom": 0.5984673130110365,
+      "top": 0.6213830690959095
+    },
+    "corner_values_source_priority": [
+      0.6381450203021293,
+      0.6679718034814233,
+      -0.00808998653556564,
+      -0.041738779442449137
+    ],
+    "pde_test_rmse": 0.1352123175072392,
+    "pde_test_max": 1.6435364408542845,
+    "preregistered_criteria": {
+      "interior_relative_l2_le_5pct": false,
+      "interior_max_absolute_le_005": false,
+      "core_max_absolute_le_002": false,
+      "open_edge_max_le_002": false,
+      "pde_test_rmse_le_002": false,
+      "range_violation_le_002": false
+    },
+    "all_criteria_pass": false,
+    "training_seconds": 111.11164479999934,
+    "final_step": 1500
+  }
+}
